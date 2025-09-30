@@ -83,7 +83,7 @@
 
         // Sửa hàm appendToDisplay để tránh xung đột
 function appendToDisplay(value) {
-    if (display.value.length < 6) {
+    if (display.value.length < 8) {
         display.value += value;
         createKeyEffect(value); // Truyền value để tạo hiệu ứng
     }
@@ -145,7 +145,7 @@ function playAudio() {
             nextLine();
         }
         function checkPassword() {
-            if (display.value === '141004') {
+            if (display.value === '15122011') {
                 calculatorScreen.style.display = 'none';
                 birthdayScreen.style.display = 'block';
         
@@ -392,7 +392,7 @@ function openLetter() {
 
 // Sửa lại checkPassword để chỉ hiện bức thư, chưa hiện nội dung
 function checkPassword() {
-    if (display.value === '141004') {
+    if (display.value === '15122011') {
         calculatorScreen.style.display = 'none';
         birthdayScreen.style.display = 'block';
 
